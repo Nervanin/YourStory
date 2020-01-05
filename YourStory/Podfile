@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '12.2'
+
+target 'YourStory' do
+   	pod 'SnapKit', '~> 5.0.1'
+  use_frameworks!
+
+  # Pods for YourStory
+
+end
