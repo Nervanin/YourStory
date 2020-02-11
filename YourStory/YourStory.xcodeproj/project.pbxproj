@@ -13,7 +13,6 @@
 		B535843923D4C9EA009E6E12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B535843823D4C9EA009E6E12 /* Preview Assets.xcassets */; };
 		B535843C23D4C9EA009E6E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B535843A23D4C9EA009E6E12 /* LaunchScreen.storyboard */; };
 		B535844623D4D1FC009E6E12 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B535844523D4D1FC009E6E12 /* LoginViewController.swift */; };
-		B5A8DF4423DDCF6B00AE91E2 /* LoginContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A8DF4323DDCF6B00AE91E2 /* LoginContainer.swift */; };
 		B5FF5A6923E1DF1400CA8972 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF5A6823E1DF1400CA8972 /* ContentView.swift */; };
 		EF163816D6A634E99F55250C /* Pods_YourStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D44D9AEAF947C880B2A76CE /* Pods_YourStory.framework */; };
 /* End PBXBuildFile section */
@@ -30,7 +29,6 @@
 		B535843B23D4C9EA009E6E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B535843D23D4C9EA009E6E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B535844523D4D1FC009E6E12 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		B5A8DF4323DDCF6B00AE91E2 /* LoginContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginContainer.swift; sourceTree = "<group>"; };
 		B5FF5A6823E1DF1400CA8972 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +76,7 @@
 				B535842F23D4C9E3009E6E12 /* AppDelegate.swift */,
 				B535843123D4C9E3009E6E12 /* SceneDelegate.swift */,
 				B535844923D89CDA009E6E12 /* LoginScene */,
+				B5DC2A8923EDA76900D80648 /* Registration */,
 				B535843523D4C9EA009E6E12 /* Assets.xcassets */,
 				B535843A23D4C9EA009E6E12 /* LaunchScreen.storyboard */,
 				B535843D23D4C9EA009E6E12 /* Info.plist */,
@@ -107,9 +106,15 @@
 		B5A8DF4223DDCF5300AE91E2 /* VIewComponents */ = {
 			isa = PBXGroup;
 			children = (
-				B5A8DF4323DDCF6B00AE91E2 /* LoginContainer.swift */,
 			);
 			path = VIewComponents;
+			sourceTree = "<group>";
+		};
+		B5DC2A8923EDA76900D80648 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Registration;
 			sourceTree = "<group>";
 		};
 		F92BAFB9C7586595ADDA5532 /* Pods */ = {
@@ -240,7 +245,6 @@
 				B535843223D4C9E3009E6E12 /* SceneDelegate.swift in Sources */,
 				B5FF5A6923E1DF1400CA8972 /* ContentView.swift in Sources */,
 				B535844623D4D1FC009E6E12 /* LoginViewController.swift in Sources */,
-				B5A8DF4423DDCF6B00AE91E2 /* LoginContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -362,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
