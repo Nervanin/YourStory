@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  YourStory
 //
-//  Created by Konstantin on 19.01.2020.
+//  Created by Konstantin on 24.02.2020.
 //  Copyright © 2020 Konstantin Meleshko. All rights reserved.
 //
 
@@ -11,16 +11,10 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//        // Override point for customization after application launch.
-//        window = UIWindow(frame: UIScreen.main.bounds)
-//        window?.makeKeyAndVisible()
-//        let mainView = LoginViewController()
-//        let mainNavigationController = UINavigationController(rootViewController: mainView)
-//        mainNavigationController.viewControllers = [mainView]
-//        window?.rootViewController = mainNavigationController
-//        return true
 
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
         return true
     }
 
@@ -40,3 +34,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+
