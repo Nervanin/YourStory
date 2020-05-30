@@ -21,6 +21,9 @@ class RegistrationViewController: UIViewController {
         
         setupView()
     }
+    @IBAction func signInButtonDidPressed(_ sender: Any) {
+        navigationController?.popToRootViewController(animated: true)
+    }
 }
 
 private extension RegistrationViewController {
